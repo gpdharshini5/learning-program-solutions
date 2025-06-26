@@ -11,7 +11,7 @@ public class SearchUtility {
         }
         return null;
     }
-
+    
     // Filter all products in a category
     public static List<Product> filterByCategory(Product[] products, String category) {
         List<Product> result = new ArrayList<>();
